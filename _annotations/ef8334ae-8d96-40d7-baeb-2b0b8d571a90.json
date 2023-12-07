@@ -4,32 +4,38 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cambridge Castle",
-            "purpose": "commenting",
+            "created": "2023-12-07T15:28:46.937Z",
             "creator": {
                 "id": "IrisBox",
                 "name": "Andy Corrigan"
             },
-            "created": "2023-12-07T15:28:46.937Z",
-            "modified": "2023-12-07T15:28:51.707Z"
+            "modified": "2023-12-07T15:28:51.707Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cambridge Castle"
         },
         {
-            "type": "TextualBody",
-            "value": "Location",
-            "purpose": "tagging",
+            "created": "2023-12-07T15:28:55.431Z",
             "creator": {
                 "id": "IrisBox",
                 "name": "Andy Corrigan"
             },
-            "created": "2023-12-07T15:28:55.431Z",
-            "modified": "2023-12-07T15:28:56.495Z"
+            "modified": "2023-12-07T15:28:56.495Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Location"
         }
     ],
+    "id": "ef8334ae-8d96-40d7-baeb-2b0b8d571a90.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=605.7572021484375,4589.68017578125,238.3720703125,355.560546875"
+        },
         "source": {
             "partOf": {
                 "id": "https://cudl.lib.cam.ac.uk//iiif/PR-ATLAS-00004-00057-00003",
@@ -37,13 +43,7 @@ order: 1
             },
             "id": "https://cudl.lib.cam.ac.uk/iiif/PR-ATLAS-00004-00057-00003/canvas/1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=605.7572021484375,4589.68017578125,238.3720703125,355.560546875"
         }
     },
-    "id": "ef8334ae-8d96-40d7-baeb-2b0b8d571a90.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
