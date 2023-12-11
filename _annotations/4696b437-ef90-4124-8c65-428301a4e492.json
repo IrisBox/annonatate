@@ -1,0 +1,38 @@
+---
+canvas: "https://irisbox.github.io/annonatate/img/derivatives/iiif/passdoon/canvas/passdoon-1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The sumit",
+            "purpose": "commenting",
+            "creator": {
+                "id": "IrisBox",
+                "name": "Andy Corrigan"
+            },
+            "created": "2023-12-11T12:59:41.874Z",
+            "modified": "2023-12-11T12:59:43.442Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://irisbox.github.io/annonatate/img/derivatives/iiif/passdoon/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://irisbox.github.io/annonatate/img/derivatives/iiif/passdoon/canvas/passdoon-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4236.3486328125,248.21554565429688,381.8701171875,451.8795471191406"
+        }
+    },
+    "id": "4696b437-ef90-4124-8c65-428301a4e492.json",
+    "motivation": "commenting"
+}
