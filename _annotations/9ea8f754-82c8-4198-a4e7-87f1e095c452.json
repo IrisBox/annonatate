@@ -1,0 +1,38 @@
+---
+canvas: "https://irisbox.github.io/annonatate/img/derivatives/iiif/passdoon/canvas/passdoon-1"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The lake",
+            "purpose": "commenting",
+            "creator": {
+                "id": "IrisBox",
+                "name": "Andy Corrigan"
+            },
+            "created": "2023-12-11T12:59:49.045Z",
+            "modified": "2023-12-11T12:59:49.917Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://irisbox.github.io/annonatate/img/derivatives/iiif/passdoon/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://irisbox.github.io/annonatate/img/derivatives/iiif/passdoon/canvas/passdoon-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1455.0618896484375,2125.743408203125,1164.7037353515625,445.514892578125"
+        }
+    },
+    "id": "9ea8f754-82c8-4198-a4e7-87f1e095c452.json",
+    "motivation": "commenting"
+}
