@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "Digital Thread Draft",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-annotation annotationurl='https://gist.githubusercontent.com/IrisBox/50019ec92cbfd0fdf869f1da748847a3/raw/f8500291f6ab16c5840a8c07dadd3279250869c4/Digital-Thread.json'></iiif-annotation>",
+            "title": "Digital Thread",
+            "description": "Digital Thread",
+            "thumbnail": ""
+        }
+    ]
+}
