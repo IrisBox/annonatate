@@ -1,0 +1,37 @@
+---
+canvas: "http://cudl.lib.cam.ac.uk/iiif/PH-GEOGRAPHY-70KGQ-00018/canvas/1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Thames Barge",
+            "purpose": "identifying",
+            "creator": {
+                "id": "IrisBox",
+                "name": "Andy Corrigan"
+            },
+            "created": "2025-10-03T07:26:50.665Z",
+            "modified": "2025-10-03T07:27:02.219Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://cudl.lib.cam.ac.uk//iiif/PH-GEOGRAPHY-70KGQ-00018",
+                "type": "Manifest"
+            },
+            "id": "http://cudl.lib.cam.ac.uk/iiif/PH-GEOGRAPHY-70KGQ-00018/canvas/1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"3738.4522705078125\" cy=\"5451.81396484375\" r=\"318.7451736857333\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1432ecb4-fbb3-4393-a9da-99483134b673.json",
+    "motivation": "commenting"
+}
