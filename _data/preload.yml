@@ -1,4 +1,9 @@
-images: []
+images:
+- added: '2025-10-03 08:11:05.859973'
+  iiif: true
+  thumbnail: https://images.lib.cam.ac.uk/iiif/PH-GEOGRAPHY-70KGQ-00018-000-00001.jp2
+  title: Tower Bridge and the City of London (70k-GQ18)
+  url: https://cudl.lib.cam.ac.uk//iiif/PH-GEOGRAPHY-70KGQ-00018.json
+  user: Andy Corrigan
 settings: {}
-version:
-- '2.1'
+version: '2.1'
